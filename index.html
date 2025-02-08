@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Germany IBAN Generator</title>
+
+		<link rel="stylesheet" href="./styles/main.css" />
+		<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+
+		<script src="./scripts/main.js" defer></script>
+	</head>
+
+	<body>
+		<h2>Germany IBAN generator</h2>
+
+		<div class="generator-control">
+			<label>
+				IBAN count:
+
+				<select id="count">
+					<option value="1">1</option>
+					<option value="5">5</option>
+					<option value="10">10</option>
+					<option value="20">20</option>
+				</select>
+			</label>
+
+			<button id="generateBtn">Generate</button>
+		</div>
+
+		<table id="ibanTable">
+			<thead>
+				<tr>
+					<th>IBAN</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody id="ibanList"></tbody>
+		</table>
+	</body>
+</html>
