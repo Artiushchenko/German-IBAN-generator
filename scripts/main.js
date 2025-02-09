@@ -28,6 +28,7 @@ const generateIBAN = () => {
 
 const generateIBANs = () => {
 	let count = parseInt(document.getElementById('count').value)
+	ibanList.innerHTML = ''
 
 	let ibanTable = document.getElementById('ibanTable')
 	ibanTable.style.display = 'table'
