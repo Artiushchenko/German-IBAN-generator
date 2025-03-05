@@ -43,6 +43,6 @@ It does **not** generate usable IBANs for banking transactions. Do not use it fo
 | `randomNumber(length)` | Generates a random number of a given length. |
 | `convertToNumericIBAN(iban)` | Converts an IBAN to a numeric format. |
 | `calculateCheckDigits(bban)` | Computes the check digits required for a valid IBAN. |
-| `generateIBAN()` | Generates a single German IBAN. |
+| `generateIBAN()` | Generates and displays single IBAN. |
 | `generateIBANs()` | Generates and displays multiple IBANs. |
 | `copyIBAN(iban, button)` | Copies an IBAN to the clipboard. |
